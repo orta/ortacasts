@@ -16,15 +16,10 @@ end
 
 def get_items
   @items = [
-          { :link => "amazon", :title => "first podcasst", 
-            :description => "bit more info" , 
-            :date => "Fri, 09 Sep 2005 00:00:00 -0000",
-            :length => "343434" },
-
-            { :link => "amazon", :title => "second podcasst", 
-              :description => "bit more info" , 
-              :date => "Fri, 09 Sep 2005 00:00:00 -0000",
-              :length => "343434" }
-         ]
-   @items=[]
+          { :link => "https://ortacasts.s3.amazonaws.com/podcast001.mp3", :title => "Grax breaks orta in", 
+            :sub => "cohost: Grax of graxdomain.co.uk",
+            :description => "talking a bit about what inspired the project, whether it will produce anything of interest, and the current setup. It's a quickie. Cause it was my first time." , 
+            :date => "Fri, 01 April",
+            :length => "512" }
+          ]
 end
