@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('league_gothic-webfont.eot');
+    src: url('league_gothic-webfont.eot?iefix') format('eot'),
+         url('league_gothic-webfont.woff') format('woff'),
+         url('league_gothic-webfont.ttf') format('truetype'),
+         url('league_gothic-webfont.svg#webfont2S2Cdlkt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+  background-color: #E7DBFF;
+  color: #E7DBFF;
+  font-family: 'LeagueGothicRegular';
+}
+
+h1{
+  font-size: 4em;
+  line-height: 1em;
+}  
+
+a{
+  color: #F7F0FF;
+}
+
+section{
+  padding: 1em;
+  padding-top: 0;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #AB909E;
+  height:600px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+}
+
+div{
+  width:200px;
+  float: left;
+}
+
