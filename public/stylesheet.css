@@ -48,18 +48,28 @@ div{
   overflow: hidden;
 }
 
-div div {
+div .counter {
   float: left;
   position: absolute;
   font-size: 20em;
   font-family: 'LeagueGothicRegular';
   color: rgba(255,255,255, 0.1);
   top: 0;
+  pointer-events: none;  
 }
 
 h2, p {
   font-size: 0.8em;
+  z-index: 2;
+  
 }
 footer{
   clear: both;
+  font-size: 3em;
+  padding-top: 12px;
+  
+}
+
+footer p{
+margin: 0;  
 }

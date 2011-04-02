@@ -10,9 +10,9 @@
     <% i = 0 %>
     <% @items.each do |cast| %>
       <div>
+        <div class="counter"><%= i = i + 1 %></div>
         <h2><a href="<%= cast[:link] %>"><%= cast[:title] %></a></h2>
         <p><%= CGI.escapeHTML(cast[:description]) %></p>
-        <div class="counter"><%= i = i + 1 %></div>
       </div>
     <% end %>
   <footer>
