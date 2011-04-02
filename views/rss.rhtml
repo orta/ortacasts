@@ -14,7 +14,7 @@
   <item>
     <title><%= cast[:title] %></title>
     <link><%= cast[:link] %></link>
-    <description><%= CGI.escapeHTML(cast[:description]) %></description>
+    <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %></description>
     <enclosure type="audio/mpeg" url="<%= cast[:link] %>" length="<%= cast[:length] %>" />
     <pubDate><%= cast[:date] %></pubDate>
     <media:content url="<%= cast[:link] %>" fileSize="<%= cast[:length] %>" type="audio/mpeg" />

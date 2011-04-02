@@ -31,7 +31,6 @@ section{
   width: 600px;
   margin: 0 auto;
   background-color: #AB909E;
-  height:600px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -41,7 +40,26 @@ section{
 }
 
 div{
+  position: relative;
   width:200px;
+  height: 250px;
   float: left;
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
+div div {
+  float: left;
+  position: absolute;
+  font-size: 20em;
+  font-family: 'LeagueGothicRegular';
+  color: rgba(255,255,255, 0.1);
+  top: 0;
+}
+
+h2, p {
+  font-size: 0.8em;
+}
+footer{
+  clear: both;
+}

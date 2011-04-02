@@ -7,12 +7,16 @@
 <body>
   <section>
     <h1>ortacasts... it's a challenge to post a podcast everyday through april you can follow this in two ways: you can use <a href="http://feeds.feedburner.com/ortacasts">iTunes</a> or <a href="http://eepurl.com/db2Iw">sign up for daily emails</a> through april</h1>
-
+    <% i = 0 %>
     <% @items.each do |cast| %>
       <div>
         <h2><a href="<%= cast[:link] %>"><%= cast[:title] %></a></h2>
         <p><%= CGI.escapeHTML(cast[:description]) %></p>
+        <div class="counter"><%= i = i + 1 %></div>
       </div>
     <% end %>
+  <footer>
+  <p>tchau</p>
+  </footer>
   </section>
   </html>
