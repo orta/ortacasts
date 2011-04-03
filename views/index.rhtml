@@ -11,7 +11,7 @@
     <% @items.each do |cast| %>
       <div>
         <div class="counter"><%= i = i + 1 %></div>
-        <h2><a href="<%= cast[:link] %>"><%= cast[:title] %></a></h2>
+        <h2><a href="<%= @server + cast[:link] %>"><%= cast[:title] %></a></h2>
         <p><%= cast[:description] %></p>
       </div>
     <% end %>

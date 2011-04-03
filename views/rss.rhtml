@@ -13,7 +13,7 @@
 <% @items.each do |cast| %>
   <item>
     <title><%= cast[:title] %></title>
-    <link><%= cast[:link] %></link>
+    <link><%= @server + cast[:link] %></link>
     <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %></description>
     <enclosure type="audio/mpeg" url="<%= cast[:link] %>" length="<%= cast[:length] %>" />
     <pubDate><%= cast[:date] %></pubDate>
