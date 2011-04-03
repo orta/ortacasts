@@ -41,11 +41,12 @@ section{
 
 div{
   position: relative;
-  width:200px;
+  width:180px;
   height: 250px;
   float: left;
   font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
   overflow: hidden;
+  padding: 10px;
 }
 
 div .counter {
