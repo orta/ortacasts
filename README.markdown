@@ -1,0 +1,1 @@
+A Sinatra based podcast server, use AWS to host your mp3s and have everything else held on heroku. Cheap, easy, powerful. Thanks cloud.
