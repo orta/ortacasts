@@ -5,24 +5,28 @@
     <description>News and interviews throughout April 2011.</description>
     <language>en-us</language>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/ortacasts" />
-    <feedburner:info uri="rubyonrailspodcast" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:subtitle>News and talks throughout April 2011</itunes:subtitle>
+    <itunes:owner>
+      <itunes:email>orta.therox@gmail.com</itunes:email>
+      <itunes:email>orta therox</itunes:email>
+    </itunes:owner>
     
-<% @items.each do |cast| %>
-  <item>
-    <title><%= cast[:title] %></title>
-    <link><%= @server + cast[:link] %></link>
-    <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %></description>
-    <enclosure type="audio/mpeg" url="<%= cast[:link] %>" length="<%= cast[:length] %>" />
-    <pubDate><%= cast[:date] %></pubDate>
-    <media:content url="<%= cast[:link] %>" fileSize="<%= cast[:length] %>" type="audio/mpeg" />
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:subtitle><%= cast[:title] %></itunes:subtitle>
-    <itunes:summary> <%= cast[:title] %></itunes:summary>
-  </item>
-<% end %>
+      <% @items.each do |cast| %>
+        <item>
+          <title><%= cast[:title] %></title>
+          <link><%= @server + cast[:link] %></link>
+          <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %> (duration <%= cast[:length] %>) </description>
+          <enclosure type="audio/mpeg" url="<%= cast[:link] %>" length="<%= cast[:length] %>" />
+          <pubDate><%= cast[:date] %></pubDate>
+          <media:content url="<%= cast[:link] %>" fileSize="<%= cast[:length] %>" type="audio/mpeg" />
+          <itunes:explicit>no</itunes:explicit>
+          <itunes:subtitle><%= cast[:title] %></itunes:subtitle>
+          <itunes:summary><%= cast[:title] %></itunes:summary>
+          <itunes:duration><%= cast[:length] %></itunes:duration>
+        </item>
+      <% end %>
 
   <media:rating>nonadult</media:rating>
   </channel>
