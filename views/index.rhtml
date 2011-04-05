@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="/stylesheet.css">
   
   <meta property="og:title" content="The ortacast podcast " />
-  <meta property="og:description" content="Latest : <%= @items[0][:description] %>" />
+  <meta property="og:description" content="Latest : <%= @items.last[:description] %>" />
 
 </head>
 <body>
