@@ -9,7 +9,7 @@ links = []
 @items.each do |cast| 
   
   # I want to know all the attributes are set
-  attrs = %w( title sub link  description date)
+  attrs = %w( title sub link  description date length)
   attrs.each do | attribute |
     puts "no #{attribute} on #{ CGI.unescapeHTML(cast[:title]) }"  unless cast[attribute.to_sym]
   end

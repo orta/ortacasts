@@ -36,7 +36,16 @@ def get_items
               :description => "The cameras I've owned, why I developed a style and a photo website I've been working", 
               :date => "Sun, 03 April",
               :length => "10:25"
+            },
+            { 
+              :title => "never gonna dance again", 
+              :link => "podcast005.mp3", 
+              :sub => "",
+              :description => "This episode took forever, because I was <a href='http://www.youtube.com/watch?v=OSRLDskFhvc&NR=1&feature=fvwp'>rocking out to Wham</a>. Today I talk about the people I helped out with some <a href='http://www.bouncebox.co.uk/'>code</a> and some design, who beat me at Lazer quest, and how COD like it seems.", 
+              :date => "Monday, 04 April",
+              :length => "10:20"
             }
+            
             
             
           ]
