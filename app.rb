@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require "sinatra/reloader"
 require 'cgi'
-require 'data'
+require File.dirname(__FILE__) + '/data'
 
        
 get "/" do
