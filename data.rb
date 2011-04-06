@@ -49,9 +49,9 @@ def get_items
             { 
               :title => "bloody peacniks", 
               :link => "podcast006.mp3", 
-              :sub => "cohost : Henk Van der Veek",
+              :sub => "cohost : Henk Van der Veen",
               :description => "Henk and I talk about english/dutch relations, what its like moving to England, what is intersting here and talked about Henk's interesting views on the value of meat.", 
-              :date => "Tuesday, 04 April",
+              :date => "Tuesday, 05 April",
               :length => "13:36"
             }
             
