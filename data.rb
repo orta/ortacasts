@@ -44,9 +44,16 @@ def get_items
               :description => "This episode took forever, because I was <a href='http://www.youtube.com/watch?v=OSRLDskFhvc&NR=1&feature=fvwp'>rocking out to Wham</a>. Today I talk about the people I helped out with some <a href='http://www.bouncebox.co.uk/'>code</a> and some design, who beat me at Lazer quest, and how COD like it seems.", 
               :date => "Monday, 04 April",
               :length => "10:20"
+            },
+                        
+            { 
+              :title => "bloody peacniks", 
+              :link => "podcast006.mp3", 
+              :sub => "cohost : Henk Van der Veek",
+              :description => "Henk and I talk about english/dutch relations, what its like moving to England, what is intersting here and talked about Henk's interesting views on the value of meat.", 
+              :date => "Tuesday, 04 April",
+              :length => "13:36"
             }
-            
-            
             
           ]
 end
