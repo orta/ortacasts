@@ -34,7 +34,7 @@ def get_items
               :link => "podcast004.mp3", 
               :sub => "",
               :description => "The cameras I've owned, why I developed a style and a photo website I've been working", 
-              :date => "Sun, 03 April",
+              :date => "Monday, 04 April",
               :length => "10:25"
             },
             { 
@@ -42,7 +42,7 @@ def get_items
               :link => "podcast005.mp3", 
               :sub => "",
               :description => "This episode took forever, because I was <a href='http://www.youtube.com/watch?v=OSRLDskFhvc&NR=1&feature=fvwp'>rocking out to Wham</a>. Today I talk about the people I helped out with some <a href='http://www.bouncebox.co.uk/'>code</a> and some design, who beat me at Lazer quest, and how COD like it seems.", 
-              :date => "Monday, 04 April",
+              :date => "Tuesday, 05 April",
               :length => "10:20"
             },
                         
@@ -51,8 +51,17 @@ def get_items
               :link => "podcast006.mp3", 
               :sub => "cohost : Henk Van der Veen",
               :description => "Henk and I talk about english/dutch relations, what its like moving to England, what is intersting here and talked about Henk's interesting views on the value of meat.", 
-              :date => "Tuesday, 05 April",
+              :date => "Wednesday, 06 April",
               :length => "13:36"
+            },
+            
+            { 
+              :title => "a rusted suite of armour", 
+              :link => "podcast007.mp3", 
+              :sub => "warning: talk of code. ",
+              :description => "I talk about open source games and applications that I've worked on in the past few years.", 
+              :date => "Thursday, 07 April",
+              :length => "17:42"
             }
             
           ]
