@@ -62,7 +62,16 @@ def get_items
               :description => "I talk about open source games and applications that I've worked on in the past few years.", 
               :date => "Thursday, 07 April",
               :length => "17:42"
+            },
+            { 
+              :title => "101 things in 1001 days", 
+              :link => "podcast010.mp3", 
+              :sub => "cohost : Grax of graxdomain.co.uk",
+              :description => "Grax talks about doing 101 things in 1001 days, the dificulties of doing it and the highs of achieving goals. Whilst orta talks about getting drunk in scotland.", 
+              :date => "Sunday, 10 April",
+              :length => "17:42"
             }
+            
             
           ]
 end
