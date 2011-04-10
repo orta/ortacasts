@@ -7,7 +7,6 @@
          url('league_gothic-webfont.svg#webfont2S2Cdlkt') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html{
@@ -26,6 +25,7 @@ a{
 }
 
 section{
+  display: block;
   padding: 1em;
   padding-top: 0;
   width: 600px;
@@ -65,6 +65,7 @@ h2, p {
   
 }
 footer{
+  display: block;
   clear: both;
   font-size: 3em;
   padding-top: 12px;
