@@ -47,7 +47,7 @@ def get_items
             },
                         
             { 
-              :title => "bloody peacniks", 
+              :title => "bloody peaceniks", 
               :link => "podcast006.mp3", 
               :sub => "cohost : Henk Van der Veen",
               :description => "Henk and I talk about english/dutch relations, what its like moving to England, what is intersting here and talked about Henk's interesting views on the value of meat.", 
@@ -63,6 +63,7 @@ def get_items
               :date => "Thursday, 07 April",
               :length => "17:42"
             },
+
             { 
               :title => "101 things in 1001 days", 
               :link => "podcast010.mp3", 
@@ -70,8 +71,15 @@ def get_items
               :description => "Grax talks about doing 101 things in 1001 days, the dificulties of doing it and the highs of achieving goals. Whilst orta talks about getting drunk in scotland.", 
               :date => "Sunday, 10 April",
               :length => "17:42"
-            }
+            },
             
-            
+            { 
+              :title => "is anyone really listening?", 
+              :link => "podcast011.mp3", 
+              :sub => "cohost : Mikey Shiraz ",
+              :description => "orta and Mikey Shiraz talk about his bands, Mr Shiraz and his Spandex covers band , his promoting, his record company, spiders, the haven that is New Zealand and about who else is coming up, for foreverrrrrrrr. ", 
+              :date => "Monday, 11 April",
+              :length => "46:44"
+            }         
           ]
 end
