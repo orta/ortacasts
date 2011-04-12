@@ -34,7 +34,7 @@ def get_items
               :link => "podcast004.mp3", 
               :sub => "",
               :description => "The cameras I've owned, why I developed a style and a photo website I've been working", 
-              :date => "Monday, 04 April",
+              :date => "Mon, 04 April",
               :length => "10:25"
             },
             { 
@@ -42,7 +42,7 @@ def get_items
               :link => "podcast005.mp3", 
               :sub => "",
               :description => "This episode took forever, because I was <a href='http://www.youtube.com/watch?v=OSRLDskFhvc&NR=1&feature=fvwp'>rocking out to Wham</a>. Today I talk about the people I helped out with some <a href='http://www.bouncebox.co.uk/'>code</a> and some design, who beat me at Lazer quest, and how COD like it seems.", 
-              :date => "Tuesday, 05 April",
+              :date => "Tue, 05 April",
               :length => "10:20"
             },
                         
@@ -51,7 +51,7 @@ def get_items
               :link => "podcast006.mp3", 
               :sub => "cohost : Henk Van der Veen",
               :description => "Henk and I talk about english/dutch relations, what its like moving to England, what is intersting here and talked about Henk's interesting views on the value of meat.", 
-              :date => "Wednesday, 06 April",
+              :date => "Wed, 06 April",
               :length => "13:36"
             },
             
@@ -60,7 +60,7 @@ def get_items
               :link => "podcast007.mp3", 
               :sub => "warning: talk of code. ",
               :description => "I talk about open source games and applications that I've worked on in the past few years.", 
-              :date => "Thursday, 07 April",
+              :date => "Thu, 07 April",
               :length => "17:42"
             },
 
@@ -69,7 +69,7 @@ def get_items
               :link => "podcast010.mp3", 
               :sub => "cohost : Grax of graxdomain.co.uk",
               :description => "Grax talks about doing 101 things in 1001 days, the dificulties of doing it and the highs of achieving goals. Whilst orta talks about getting drunk in scotland.", 
-              :date => "Sunday, 10 April",
+              :date => "Sun, 10 April",
               :length => "17:42"
             },
             
@@ -78,7 +78,7 @@ def get_items
               :link => "podcast011.mp3", 
               :sub => "cohost : Mikey Shiraz ",
               :description => "orta and Mikey Shiraz talk about his bands, Mr Shiraz and his Spandex covers band , his promoting, his record company, spiders, the haven that is New Zealand and about who else is coming up, for foreverrrrrrrr. ", 
-              :date => "Monday, 11 April",
+              :date => "Mon, 11 April",
               :length => "46:44"
             }         
           ]

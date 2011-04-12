@@ -20,7 +20,7 @@
           <title><%= cast[:title] %></title>
           <link><%= @server + cast[:link] %></link>
           <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %> (duration <%= cast[:length] %>) </description>
-          <enclosure type="audio/mpeg" url="<% @server %><%= cast[:link] %>" length="555" />
+          <enclosure type="audio/mpeg" url="<%=  @server + cast[:link] %>" length="555" />
           <pubDate><%= cast[:date] %> 2011 12:00:00 GMT</pubDate>
           <media:content url="<%=  @server + cast[:link] %>" fileSize="555" type="audio/mpeg" />
           <guid><%=  @server + cast[:link] %></guid>
