@@ -8,9 +8,11 @@
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:subtitle>News and talks throughout April 2011</itunes:subtitle>
+    <itunes:category text="Music" />
+    <itunes:image href="http://ortacast.heroku.com/ortacast_itunes.jpg"/>
     <itunes:owner>
       <itunes:email>orta.therox@gmail.com</itunes:email>
-      <itunes:name>orta therox</itunes:name>
+      <itunes:author>orta therox</itunes:author>
     </itunes:owner>
     
       <% @items.reverse.each do |cast| %>
@@ -18,8 +20,8 @@
           <title><%= cast[:title] %></title>
           <link><%= @server + cast[:link] %></link>
           <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %> (duration <%= cast[:length] %>) </description>
-          <enclosure type="audio/mpeg" url="<% @server %><%= cast[:link] %>" length="<%= cast[:length] %>" />
-          <pubDate><%= cast[:date] %></pubDate>
+          <enclosure type="audio/mpeg" url="<% @server %><%= cast[:link] %>" length="555" />
+          <pubDate><%= cast[:date] %> 2011 12:00:00 GMT</pubDate>
           <media:content url="<%=  @server + cast[:link] %>" fileSize="555" type="audio/mpeg" />
           <guid><%=  @server + cast[:link] %></guid>
           <itunes:explicit>no</itunes:explicit>
