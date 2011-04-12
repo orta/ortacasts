@@ -1,5 +1,5 @@
 def get_items
-  @ = "https://ortacasts.s3.amazonaws.com/"
+  @server = "https://ortacasts.s3.amazonaws.com/"
   @items = [
     
            { 
