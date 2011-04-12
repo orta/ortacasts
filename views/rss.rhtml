@@ -10,7 +10,7 @@
     <itunes:subtitle>News and talks throughout April 2011</itunes:subtitle>
     <itunes:owner>
       <itunes:email>orta.therox@gmail.com</itunes:email>
-      <itunes:email>orta therox</itunes:email>
+      <itunes:name>orta therox</itunes:name>
     </itunes:owner>
     
       <% @items.reverse.each do |cast| %>
@@ -20,7 +20,8 @@
           <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %> (duration <%= cast[:length] %>) </description>
           <enclosure type="audio/mpeg" url="<% @server %><%= cast[:link] %>" length="<%= cast[:length] %>" />
           <pubDate><%= cast[:date] %></pubDate>
-          <media:content url="<% @server %><%= cast[:link] %>" fileSize="<%= cast[:length] %>" type="audio/mpeg" />
+          <media:content url="<%  @server + cast[:link] %>" fileSize="555" type="audio/mpeg" />
+          <guid><%  @server + cast[:link] %></guid>
           <itunes:explicit>no</itunes:explicit>
           <itunes:subtitle><%= cast[:title] %></itunes:subtitle>
           <itunes:summary><%= cast[:title] %></itunes:summary>
