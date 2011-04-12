@@ -20,8 +20,8 @@
           <description><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %> (duration <%= cast[:length] %>) </description>
           <enclosure type="audio/mpeg" url="<% @server %><%= cast[:link] %>" length="<%= cast[:length] %>" />
           <pubDate><%= cast[:date] %></pubDate>
-          <media:content url="<%  @server + cast[:link] %>" fileSize="555" type="audio/mpeg" />
-          <guid><%  @server + cast[:link] %></guid>
+          <media:content url="<%=  @server + cast[:link] %>" fileSize="555" type="audio/mpeg" />
+          <guid><%=  @server + cast[:link] %></guid>
           <itunes:explicit>no</itunes:explicit>
           <itunes:subtitle><%= cast[:title] %></itunes:subtitle>
           <itunes:summary><%= cast[:title] %></itunes:summary>
