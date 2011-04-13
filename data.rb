@@ -80,6 +80,15 @@ def get_items
               :description => "orta and Mikey Shiraz talk about his bands, Mr Shiraz and his Spandex covers band , his promoting, his record company, spiders, the haven that is New Zealand and about who else is coming up, for foreverrrrrrrr. ", 
               :date => "Mon, 11 Apr",
               :length => "46:44"
-            }         
+            },            
+            { 
+              :title => "anyone who died on everest is lying", 
+              :link => "podcast013.mp3", 
+              :sub => "cohost : Karl Baird ",
+              :description => 'orta and Karl Baird talk about photography, <a href = "http://sincerely.com/">postagram</a>, drinks, having kids, the 90s, back to the future, the way social media has changed over the past 20 years. ', 
+              :date => "Wed, 13 Apr",
+              :length => "52:53"
+            }
+                 
           ]
 end
