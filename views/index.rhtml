@@ -13,11 +13,8 @@
 <body>
   <section>
     <h1>ortacasts... it's a challenge to post a podcast everyday through april. You should follow this in two ways: you can use <a href="http://feeds.feedburner.com/ortacasts">iTunes/RSS</a> or <a href="http://eepurl.com/db2Iw">sign up for daily emails</a> through april</h1>
+    <% i = @items.count %>
     <% @items.reverse.each do |cast| %>
-    <%
-      #fuck you best practices, I'll do what I want with breaking my view - controller stuff
-    %>
-    
       <div>
         <div class="counter"><%= i = i - 1 %></div>
         <h2><a href="<%= @server + cast[:link] %>"><%= cast[:title] %></a></h2>
