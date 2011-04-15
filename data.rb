@@ -88,7 +88,16 @@ def get_items
               :description => 'orta and Karl Baird talk about photography, <a href = "http://sincerely.com/">postagram</a>, drinks, having kids, the 90s, back to the future, the way social media has changed over the past 20 years. ', 
               :date => "Wed, 13 Apr",
               :length => "52:53"
+            },
+            { 
+              :title => "oddjob is for cheaters", 
+              :link => "podcast015.mp3", 
+              :sub => "",
+              :description => 'orta talks about why the last podcast didnt happen, reflects on local meetups, and the <a href="https://github.com/orta/Spotify-Remote">spotify remote</a> application he wrote today.', 
+              :date => "Fri, 15 Apr",
+              :length => "12:42"
             }
+            
                  
           ]
 end
