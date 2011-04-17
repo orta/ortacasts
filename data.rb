@@ -80,7 +80,8 @@ def get_items
               :description => "orta and Mikey Shiraz talk about his bands, Mr Shiraz and his Spandex covers band , his promoting, his record company, spiders, the haven that is New Zealand and about who else is coming up, for foreverrrrrrrr. ", 
               :date => "Mon, 11 Apr",
               :length => "46:44"
-            },            
+            },  
+                      
             { 
               :title => "anyone who died on everest is lying", 
               :link => "podcast013.mp3", 
@@ -89,6 +90,7 @@ def get_items
               :date => "Wed, 13 Apr",
               :length => "52:53"
             },
+            
             { 
               :title => "oddjob is for cheaters", 
               :link => "podcast015.mp3", 
@@ -96,8 +98,15 @@ def get_items
               :description => 'orta talks about why the last podcast didnt happen, reflects on local meetups, and the <a href="https://github.com/orta/Spotify-Remote">spotify remote</a> application he wrote today.', 
               :date => "Fri, 15 Apr",
               :length => "12:42"
-            }
+            },
             
-                 
+            { 
+              :title => "you can really sink your teeth into it", 
+              :link => "podcast017.mp3", 
+              :sub => "cohost : Matt Hill",
+              :description => 'orta and Matt Hil ltalk comics, owning a comic book store, running a small business, the odd implications of break-ins and advise you on what comics you should read if you wanna try from scratch.', 
+              :date => "Sun, 17 Apr",
+              :length => "109:00"
+            }
           ]
 end
