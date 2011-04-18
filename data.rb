@@ -107,6 +107,16 @@ def get_items
               :description => 'orta and Matt Hil ltalk comics, owning a comic book store, running a small business, the odd implications of break-ins and advise you on what comics you should read if you wanna try from scratch.', 
               :date => "Sun, 17 Apr",
               :length => "109:00"
+            },
+            
+            {         
+              :title => "the bairds are like the godfathers of huddersfield", 
+              :link => "podcast018.mp3", 
+              :sub => "cohost : Peter Gray",
+              :description => 'orta and Peter discuss his life working as DJs throughout yorkshire, living in different towns, running an online apparel shop,  music, intersting bands, metroid, steam, portal 2 and shitty bands.', 
+              :date => "Mon, 18 Apr",
+              :length => "105:30"
             }
+            
           ]
 end
