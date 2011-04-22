@@ -116,8 +116,7 @@ def get_items
               :description => 'orta and Peter discuss his life working as DJs throughout yorkshire, living in different towns, running an online apparel shop,  music, intersting bands, metroid, steam, portal 2 and shitty bands.', 
               :date => "Mon, 18 Apr",
               :length => "105:30"
-            }
-            ,
+            },
             {         
               :title => "its like a really profession intro", 
               :link => "podcast022.mp3", 
