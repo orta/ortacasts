@@ -117,6 +117,15 @@ def get_items
               :date => "Mon, 18 Apr",
               :length => "105:30"
             }
+            ,
+            {         
+              :title => "its like a really profession intro", 
+              :link => "podcast022.mp3", 
+              :sub => "cohost : Nathsbeth",
+              :description => 'orta and Natalie Beth talk about music, instruments, teaching to learn with music, and running a record label in a school.', 
+              :date => "Fri, 22 Apr",
+              :length => "42:50"
+            }
             
           ]
 end
