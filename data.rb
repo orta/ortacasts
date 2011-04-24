@@ -133,6 +133,14 @@ def get_items
               :description => 'orta and  Katie talk about working in the fashion industry, great photographers, and models with a penchant for dead animals.', 
               :date => "Sat, 23 Apr",
               :length => "40:50"
+            },
+            {         
+              :title => "3 or 4 years practicing everyday and you eventually get it", 
+              :link => "podcast024.mp3", 
+              :sub => "cohost : Becky Prusinski and Steven Stills",
+              :description => 'We talk about running a small <a href="http://www.facebook.com/profile.php?id=100001808284421">art shop</a> in huddersfield, Stephens awesome <a href="http://fuckyeahdrawpokemon.tumblr.com/">pokemon art</a>.', 
+              :date => "Sun, 24 Apr",
+              :length => "40:50"
             }
             
           ]
