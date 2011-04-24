@@ -117,6 +117,7 @@ def get_items
               :date => "Mon, 18 Apr",
               :length => "105:30"
             },
+            
             {         
               :title => "its like a really profession intro", 
               :link => "podcast022.mp3", 
@@ -124,6 +125,14 @@ def get_items
               :description => 'orta and Natalie Beth talk about music, instruments, teaching to learn with music, and running a record label in a school.', 
               :date => "Fri, 22 Apr",
               :length => "42:50"
+            },
+            {         
+              :title => "it really could be anyone's feet", 
+              :link => "podcast023.mp3", 
+              :sub => "cohost : Katie Watkinson",
+              :description => 'orta and  Katie talk about working in the fashion industry, great photographers, and models with a penchant for dead animals.', 
+              :date => "Sat, 23 Apr",
+              :length => "40:50"
             }
             
           ]
