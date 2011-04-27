@@ -26,7 +26,7 @@
           <guid><%=  @server + cast[:link] %></guid>
           <itunes:explicit>no</itunes:explicit>
           <itunes:subtitle><%= cast[:title] %></itunes:subtitle>
-          <itunes:summary><%= cast[:title] %></itunes:summary>
+          <itunes:summary><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %></itunes:summary>
           <itunes:duration><%= cast[:length] %></itunes:duration>
         </item>
       <% end %>

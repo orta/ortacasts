@@ -140,7 +140,15 @@ def get_items
               :sub => "cohost : Becky Prusinski and Steven Stills",
               :description => 'We talk about running a small <a href="http://www.facebook.com/profile.php?id=100001808284421">art shop</a> in huddersfield, Stephens awesome <a href="http://fuckyeahdrawpokemon.tumblr.com/">pokemon art</a>.', 
               :date => "Sun, 24 Apr",
-              :length => "40:50"
+              :length => "52:05"
+            },
+            {         
+              :title => "and his hands are over his head like this", 
+              :link => "podcast025.mp3", 
+              :sub => "cohost : Nadia Jogee",
+              :description => "Nadia and orta talk about Nadia's new found love of spiders, volunteering at the Manchester Museum and odd mating rituals", 
+              :date => "Mon, 25 Apr",
+              :length => "48:58"
             }
             
           ]
