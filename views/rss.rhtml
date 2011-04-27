@@ -25,7 +25,7 @@
           <media:content url="<%=  @server + cast[:link] %>" fileSize="555" type="audio/mpeg" />
           <guid><%=  @server + cast[:link] %></guid>
           <itunes:explicit>no</itunes:explicit>
-          <itunes:subtitle><%= cast[:title] %></itunes:subtitle>
+          <itunes:subtitle><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %></itunes:subtitle>
           <itunes:summary><%= CGI.escapeHTML(cast[:sub]) %> - <%= CGI.escapeHTML(cast[:description]) %></itunes:summary>
           <itunes:duration><%= cast[:length] %></itunes:duration>
         </item>
